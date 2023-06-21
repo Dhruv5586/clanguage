@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+     int a,b,c=1;
+     clrscr();
+     a=1;
+     while(a<=5)
+     {
+     b=1;
+     while(b<=a)
+     {
+       printf("%d",c%2==1);
+       c++;
+       b++;
+     }
+       printf("\n");
+       a++;
+       }
+     getch();
+}
